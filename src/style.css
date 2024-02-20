@@ -1,1 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+p {
+  font-size: 100px;
+  font-weight: bold;
+}
+.p_number {
+  font-size: 170px;
+}
+
+body {
+  background-color: green;
+  padding-top: 30px;
+}
+
+.Mycontainer {
+  margin: auto;
+  position: relative;
+  height: 500px;
+  width: 350px;
+  background-color: white;
+
+  border-radius: 15px;
+}
+.firstSuit,
+.lastsuit {
+  position: relative;
+  width: 100px;
+  height: 90px;
+  margin: 0px;
+}
+.firstSuit {
+}
+
+.suit_number {
+  text-align: center;
+}
+.lastSuit {
+  text-align: right;
+  position: relative;
+  margin-bottom: -20px;
+}
